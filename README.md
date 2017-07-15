@@ -1,5 +1,5 @@
 # modern-x86-assembly-language-programming-linux
-Source code for 'Modern X86 Assembly Language Programming' by Daniel Kusswurm, 'translated' to nasm and gcc for Linux.
+Source code for 'Modern X86 Assembly Language Programming' by Daniel Kusswurm, 'translated' to nasm and g++ for Linux.
 
 This repository isn't complete. Some examples still need to be translated especially those with GDI libraries.  In time I want to use SDL for that.
 
