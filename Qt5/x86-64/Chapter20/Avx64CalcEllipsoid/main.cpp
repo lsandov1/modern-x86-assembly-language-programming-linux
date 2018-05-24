@@ -1,8 +1,3 @@
-// build:
-// nasm -f elf64 -g -F dwarf -o avx64calcellipsoid_.o avx64calcellipsoid_.asm
-// g++ -c -pipe -O2 -std=gnu++11 -Wall -W -fPIC  -I. -I/home/agguro/Programs/Qt/64bits/5.11.0/gcc_64/mkspecs/linux-g++ -o main.o main.cpp
-// g++ -Wl,-O1 -o Avx64CalcEllipsoid avx64calcellipsoid_.o main.o   -lm
-
 #include <stdio.h>
 #include <math.h>
 
