@@ -7,6 +7,7 @@ SOURCES += main.cpp
 LIBS += -lm
 
 QMAKE_EXTRA_COMPILERS += nasm
+
 NASMEXTRAFLAGS = -f elf64 -g -F dwarf
 
 OTHER_FILES += $$NASM_SOURCES
