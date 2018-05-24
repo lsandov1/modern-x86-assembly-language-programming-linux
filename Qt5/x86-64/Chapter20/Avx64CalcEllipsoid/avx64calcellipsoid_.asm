@@ -35,6 +35,7 @@ section .text
 ;	    r9   :double* vol (result)
 
 %define STK_TOTAL 0x60
+
 ;stack must be kept aligned to 16 bytes (0x10).
 ;12 local variables = 12 x 8 = 96 (or 0x60) bytes needed. We don't need padding because we have 6 non-volatile
 ;registers pushed on the stack. 6 x 8 = 48 (or 0x30) which is also aligned to 16 bytes.
